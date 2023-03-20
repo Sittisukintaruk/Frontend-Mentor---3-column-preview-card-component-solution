@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply rounded-3xl bg-white hover:bg-transparent border-2 border-transparent hover:border-white  hover:text-white px-8 py-3 font-LexendDeca text-base;
+  }
+}
